@@ -14,3 +14,9 @@ spring:
     console:
       enabled: true
 
+my:
+  lucky-num: "${random.int(1,100)}"
+
+logging:
+  file:
+    name: logs/app.log
